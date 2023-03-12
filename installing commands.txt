@@ -1,0 +1,21 @@
+https://github.com/manuel920506/ReactApp.git
+//using backticks ``
+
+//////////frontend////////////////////
+//npx create-react-app my-first-app --template typescript 
+//npm i react-router-dom@5.2
+//npm i --save-dev @types/react-router-dom
+// inside to file /tsconfig.json add=> "useUnknownInCatchVariables": false,
+//npm i bootstrap@4.6
+//npm i react-router-dom@5.2
+//npm i --save-dev @types/react-router-dom
+
+
+
+//////////////////backend/////////////
+//dotnet tool install --global dotnet-ef
+//dotnet tool update --global dotnet-ef
+//dotnet new
+//dotnet new webapi -o filmsApi
+//dornet run
+//dotnet dev-certs https --trust
