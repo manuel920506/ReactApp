@@ -1,9 +1,8 @@
 import './App.css'; 
 import Menu from './utils/Menu';
-import { Route, Switch } from 'react-router';
-import GenreIndices from './genres/genreIndices';
-import { BrowserRouter } from 'react-router-dom';
-import LandingPage from './LandingPage';
+import { Route, Switch } from 'react-router'; 
+import { BrowserRouter } from 'react-router-dom'; 
+import routes from './route-config';
  
 function App() { 
   return (
@@ -12,12 +11,7 @@ function App() {
       <Menu/> 
       <div className='container'> 
         <Switch>
-          <Route exact path="/">
-            <LandingPage />
-          </Route>
-          <Route path="/genres">
-            <GenreIndices />
-          </Route>
+           {routes.map(route => <Route key={route.path} path={route.path} exact={route.exact} component={route.component} />)}
         </Switch>
       </div>
     </BrowserRouter> 
