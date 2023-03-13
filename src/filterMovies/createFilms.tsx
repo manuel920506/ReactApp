@@ -1,4 +1,4 @@
-export default function CreateFilm(){
+export default function CreateFilms(){
     return(
         <>
             <h3>Create Film</h3> 

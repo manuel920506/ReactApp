@@ -11,24 +11,26 @@ import CreateGenre from "./genres/createGenre";
 import EditGenre from "./genres/editGenre";
 import GenreIndices from "./genres/genreIndices";
 import LandingPage from "./LandingPage";
+import RedirectLandingPage from "./utils/redirectLandingPage";
 
 const routes = [
     {path: '/genres/create', component: CreateGenre},
-    {path: '/genres/edit', component: EditGenre},
+    {path: '/genres/edit:id(\\d+)', component: EditGenre, exact: true},
     {path: '/genres', component: GenreIndices},
 
     {path: '/actors/create', component: CreateActor},
-    {path: '/actors/edit', component: EditActor},
+    {path: '/actors/edit:id(\\d+)', component: EditActor, exact: true},
     {path: '/actors', component: ActorIndices},
 
     {path: '/cinemas/create', component: CreateCinema},
-    {path: '/cinemas/edit', component: EditCinema},
+    {path: '/cinemas/edit:id(\\d+)', component: EditCinema, exact: true},
     {path: '/cinemas', component: CinemaIndices},
 
     {path: '/films/create', component: CreateFilms},
-    {path: '/films/edit', component: EditFilms},
+    {path: '/films/edit:id(\\d+)', component: EditFilms, exact: true},
     {path: '/films/filter', component: FilterMovies},
     
-    {path: '/', component: LandingPage, exact: true}
+    {path: '/', component: LandingPage, exact: true},
+    {path: '*', component: RedirectLandingPage}
 ];
 export default routes;

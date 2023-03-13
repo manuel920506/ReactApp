@@ -12,7 +12,7 @@ export default function Menu(){
                             <NavLink className="nav-link" activeClassName={activeClass} to="/genres">Genres</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" activeClassName={activeClass} to="/films/filter'">Filter Movies</NavLink>
+                            <NavLink className="nav-link" activeClassName={activeClass} to="/films/filter">Filter Movies</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link" activeClassName={activeClass} to="/actors">Actors</NavLink>
