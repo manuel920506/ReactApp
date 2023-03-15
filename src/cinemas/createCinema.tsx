@@ -1,7 +1,14 @@
+import FormCinema from "./FormCinema";
+
 export default function CreateCinema(){
-    return(
+    return (
         <>
-            <h3>Create Cinema</h3> 
+            <h3>Create Cinema</h3>
+            <FormCinema
+                model={{name: ''}}
+                onSubmit={values => console.log(values)}
+            />
         </>
+
     )
 }

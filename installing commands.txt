@@ -9,6 +9,14 @@ https://github.com/manuel920506/ReactApp.git
 //npm i bootstrap@4.6
 //npm i react-router-dom@5.2
 //npm i --save-dev @types/react-router-dom
+//npm i formik@2.2.6
+//npm i yup@0.32.9
+//npm i react-markdown typed-react-markdown
+//npm install --save-exact leaflet@1.7.1 react-leaflet@3.1.0 @react-leaflet/core@1.0.2
+    //npm i leaflet   //npm i react-leaflet
+//npm i -D @types/leaflet
+//npm i react-bootstrap-typeahead@5.1.4
+//npm i -D @types/react-bootstrap-typeahead@5.1.4
 
 
 

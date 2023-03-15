@@ -1,12 +1,17 @@
-import { useHistory } from "react-router-dom"
-import Button from "../utils/Button";
+import FormGenres from "./FormGenres";
 
-export default function CreateGenre(){
-    const history = useHistory();
-    return(
+export default function CreateGenre(){ 
+    // const history = useHistory();
+    return (
         <>
-            <h3>Create Genre</h3> 
-            <Button onClick={() => history.push('/genres')}>Save</Button>
+            <h3>Crear Género</h3>
+
+            <FormGenres model={{name: ''}} 
+                 onSubmit={async values => {
+                    await new Promise(r => setTimeout(r, 3000))
+                    console.log(values);
+                 }}
+            />
         </>
     )
 }

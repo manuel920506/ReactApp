@@ -1,7 +1,14 @@
+import ActorsForm from "./ActorsForm";
+
 export default function CreateActor(){
-    return(
+    return (
         <>
-            <h3>Create Actor</h3> 
+            <h3>Create Actors</h3>
+            <ActorsForm
+                model={{name: '', birthDate: undefined}}
+                onSubmit={values => console.log(values)}
+            />
         </>
+
     )
 }

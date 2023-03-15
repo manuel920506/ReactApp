@@ -11,12 +11,19 @@
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "bootstrap": "4.6",
+    "formik": "^2.2.6",
+    "leaflet": "^1.9.3",
     "react": "^18.2.0",
+    "react-bootstrap-typeahead": "^5.1.4",
     "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "react-markdown": "^8.0.5",
     "react-router-dom": "5.2",
     "react-scripts": "5.0.1",
+    "typed-react-markdown": "^0.1.0",
     "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.9"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -43,6 +50,8 @@
     ]
   },
   "devDependencies": {
+    "@types/leaflet": "^1.9.2",
+    "@types/react-bootstrap-typeahead": "^5.1.4",
     "@types/react-router-dom": "^5.3.3"
   }
 }
