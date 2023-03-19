@@ -17,6 +17,7 @@ https://github.com/manuel920506/ReactApp.git
 //npm i -D @types/leaflet
 //npm i react-bootstrap-typeahead@5.1.4
 //npm i -D @types/react-bootstrap-typeahead@5.1.4
+//npm i axios@0.21.1
 
 
 
@@ -25,5 +26,6 @@ https://github.com/manuel920506/ReactApp.git
 //dotnet tool update --global dotnet-ef
 //dotnet new
 //dotnet new webapi -o filmsApi
-//dornet run
-//dotnet dev-certs https --trust
+//dotnet run
+//dotnet dev-certs https --trust 
+//dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer --version 7.0.4
